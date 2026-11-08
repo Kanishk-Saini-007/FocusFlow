@@ -7,11 +7,11 @@ A quiet, local-first Pomodoro timer. Set an intention, give it your attention, a
 
 ## Preview
 
-![FocusFlow desktop with fictional sample sessions](8-preview.jpg)
+![FocusFlow desktop with fictional sample sessions](8-preview.svg)
 
 <details><summary>Mobile screenshot</summary>
 
-![FocusFlow mobile](10-mobile-small.jpg)
+![FocusFlow mobile](10-mobile-small.svg)
 </details>
 
 ## What it does
@@ -47,7 +47,7 @@ Eight dependency-free logic tests cover phase transitions, clock rounding, Monda
 - `logic.js` - pure date, summary and timer helpers
 - `app.js` - UI events, timer lifecycle and local persistence
 - `tests.js` - Node assertion tests
-- `8-preview.jpg` - real desktop screenshot
+- `8-preview.svg` - real desktop screenshot
 
 ## Privacy and limitations
 No analytics, network calls or sign-in. Data stays in this browser's local storage and is not synchronized across devices. Clearing site data clears the journal. Reloading resets the active timer, but keeps completed sessions and settings. The browser must stay open for a session to be recorded. This is a focus aid, not an alarm service: suspended devices may delay callbacks. There are no background notifications or audio alerts. Clock changes can affect an active timer. History shows the 30 most recent sessions; totals include all stored sessions.
